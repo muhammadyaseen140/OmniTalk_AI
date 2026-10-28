@@ -163,14 +163,3 @@ Then open the URL shown in your terminal (usually http://localhost:8501).
 - [ ] Export summary and chat to PDF
 
 ---
-
-## 📬 Contact
-
-Built by **<your name>**.  
-Need a custom RAG chatbot, transcription tool, or AI app? Reach out on [Fiverr](https://www.fiverr.com/) or [LinkedIn](https://www.linkedin.com/).
-
----
-
-## 📄 License
-
-MIT License. Feel free to use and modify.
