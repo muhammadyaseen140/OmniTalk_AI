@@ -88,6 +88,7 @@ with st.sidebar:
     yt_url, uploaded_file = "", None
     if input_method == "YouTube Link":
         yt_url = st.text_input("YouTube Video URL:")
+        st.caption("If YouTube blocks the download on this hosted version, use \"Upload Audio File\" instead.")
         process_btn = st.button("Extract & Process", type="primary", use_container_width=True)
     else:
         uploaded_file = st.file_uploader("Upload Audio (supports large files):", type=["mp3", "wav", "m4a"])
